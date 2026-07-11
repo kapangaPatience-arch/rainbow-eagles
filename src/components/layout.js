@@ -1,4 +1,5 @@
 import { renderSidebar } from './sidebar.js';
+import { getAccessibilityWidgetHTML, bindAccessibilityEvents } from './accessibility-widget.js';
 
 export function renderLayout() {
   const app = document.getElementById('app');
@@ -7,5 +8,7 @@ export function renderLayout() {
       ${renderSidebar()}
       <main id="page-content"></main>
     </div>
+    ${getAccessibilityWidgetHTML()}
   `;
+  bindAccessibilityEvents();
 }
