@@ -8,18 +8,18 @@
 }
 
 :root {
-  --brown-dark: #4A1E0A;
-  --brown-main: #6B2D0F;
-  --brown-mid: #8B4513;
-  --gold: #C8962E;
-  --gold-light: #E8B84B;
-  --cream: #FDF8F2;
-  --cream-dark: #F0E4D0;
-  --border: #E0D0C0;
-  --border-light: #f0ebe6;
-  --text-main: #1A0F08;
-  --text-sub: #7A5C44;
-  --text-muted: #9c8576;
+  --red-dark: #7F1D1D;
+  --red-main: #B91C1C;
+  --red-mid: #DC2626;
+  --accent: #F59E0B;
+  --accent-light: #FBBF24;
+  --cream: #FEF2F2;
+  --cream-dark: #FEE2E2;
+  --border: #D1D5DB;
+  --border-light: #F3F4F6;
+  --text-main: #111827;
+  --text-sub: #4B5563;
+  --text-muted: #9CA3AF;
   --white: #ffffff;
   --bg-page: #f3f4f6;
   --red-50: #fef2f2;
@@ -56,7 +56,7 @@ a {
 /* ===== Sidebar ===== */
 .sidebar {
   width: var(--sidebar-width);
-  background: var(--brown-main);
+  background: var(--red-main);
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ a {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1.5px;
-  color: var(--gold-light);
+  color: var(--accent-light);
 }
 
 .sidebar nav {
@@ -129,7 +129,7 @@ a {
 .sidebar nav ul li.active a {
   color: var(--white);
   background: rgba(255, 255, 255, 0.12);
-  border-right: 3px solid var(--gold);
+  border-right: 3px solid var(--accent);
 }
 
 .sidebar .logout {
@@ -176,7 +176,7 @@ main {
 
 /* ===== Hero ===== */
 .hero {
-  background: linear-gradient(135deg, var(--brown-main) 0%, var(--brown-dark) 100%);
+  background: linear-gradient(135deg, var(--red-main) 0%, var(--red-dark) 100%);
   border-radius: 14px;
   padding: 2rem 2.5rem;
   display: flex;
@@ -191,7 +191,7 @@ main {
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--gold-light);
+  color: var(--accent-light);
   margin-bottom: 0.4rem;
 }
 
@@ -228,12 +228,12 @@ main {
 }
 
 .hero-buttons .btn-ticket {
-  background: var(--gold);
-  color: var(--brown-dark);
+  background: var(--accent);
+  color: var(--red-dark);
 }
 
 .hero-buttons .btn-ticket:hover {
-  background: var(--gold-light);
+  background: var(--accent-light);
 }
 
 .hero-buttons .btn-profile {
@@ -395,7 +395,7 @@ main {
   justify-content: center;
   background: var(--cream);
   border-radius: 8px;
-  color: var(--brown-main);
+  color: var(--red-main);
   font-size: 0.85rem;
 }
 
@@ -474,7 +474,7 @@ main {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: var(--brown-mid);
+  border-color: var(--red-mid);
   background: var(--white);
   box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.08);
 }
@@ -488,7 +488,7 @@ main {
   align-items: center;
   gap: 0.5rem;
   padding: 0.65rem 1.5rem;
-  background: var(--brown-main);
+  background: var(--red-main);
   color: var(--white);
   border: none;
   border-radius: 8px;
@@ -500,7 +500,7 @@ main {
 }
 
 .btn-submit:hover {
-  background: var(--brown-dark);
+  background: var(--red-dark);
 }
 
 /* ===== Profile ===== */
@@ -525,7 +525,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: 0 auto 1rem;
-  color: var(--brown-main);
+  color: var(--red-main);
   font-size: 1.5rem;
 }
 
@@ -545,7 +545,7 @@ main {
 
 .profile-email {
   font-size: 0.8rem;
-  color: var(--brown-mid);
+  color: var(--red-mid);
   margin-bottom: 1.5rem;
 }
 
@@ -584,7 +584,7 @@ main {
   align-items: center;
   gap: 0.5rem;
   padding: 0.6rem 1.5rem;
-  background: var(--brown-main);
+  background: var(--red-main);
   color: var(--white);
   border: none;
   border-radius: 8px;
@@ -596,7 +596,7 @@ main {
 }
 
 .btn-edit:hover {
-  background: var(--brown-dark);
+  background: var(--red-dark);
 }
 
 /* ===== Responsive ===== */
