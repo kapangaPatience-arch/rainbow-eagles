@@ -2,6 +2,7 @@ export function renderSidebar() {
   return `
     <aside class="sidebar">
       <div class="logo">
+        <img src="/images/logo.jpeg" alt="Rainbow Eagles logo" class="sidebar-logo">
         <h3 class="logo-text"><i class="fa-solid fa-headset"></i> RAINBOW EAGLES ICT HELPDESK</h3>
       </div>
 
