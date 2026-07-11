@@ -6,14 +6,14 @@ export function renderDashboard() {
 
   return `
     <div class="breadcrumb">
-      National Treasury / <strong>Employee Dashboard</strong>
+      Rainbow eagles/ <strong>Employee Dashboard</strong>
     </div>
 
     <section class="hero">
       <div>
         <p>${greeting}</p>
-        <h1>IVY WANJIKU NJUGUNA</h1>
-        <span>ICT Department &bull; ivy@gmail.com</span>
+        <h1>Dear sir.</h1>
+        <span>ICT Department &bull; rainboweagles@gmail.com</span>
       </div>
       <div class="hero-buttons">
         <button class="btn-ticket">
