@@ -9,7 +9,7 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: var(--red-main, #B91C1C);
+  background: var(--red-main, #FF746C);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .a11y-toggle:hover {
-  background: var(--red-dark, #7F1D1D);
+  background: var(--red-dark, #E8635B);
   transform: scale(1.05);
 }
 
@@ -140,7 +140,7 @@
 }
 
 .a11y-font-btn:hover {
-  border-color: var(--red-mid, #DC2626);
+  border-color: var(--red-mid, #FF8A84);
   background: #fff;
 }
 
@@ -191,7 +191,7 @@
 
 .a11y-row-icon.contrast { background: #1a1a2e; color: #fff; }
 .a11y-row-icon.grayscale { background: #6b7280; color: #fff; }
-.a11y-row-icon.dyslexia { background: var(--red-main, #B91C1C); color: #fff; }
+.a11y-row-icon.dyslexia { background: var(--red-main, #FF746C); color: #fff; }
 .a11y-row-icon.spacing { background: #1d4ed8; color: #fff; }
 .a11y-row-icon.links { background: #b45309; color: #fff; }
 .a11y-row-icon.cursor { background: #7c3aed; color: #fff; }
@@ -240,7 +240,7 @@
 }
 
 .a11y-switch input:checked + .a11y-switch-track {
-  background: var(--red-main, #B91C1C);
+  background: var(--red-main, #FF746C);
 }
 
 .a11y-switch input:checked + .a11y-switch-track::after {
@@ -273,7 +273,7 @@
 }
 
 .a11y-reset:hover {
-  border-color: var(--red-mid, #DC2626);
+  border-color: var(--red-mid, #FF8A84);
   color: var(--text-main, #111827);
   background: #fff;
 }
@@ -397,7 +397,7 @@ html[data-highlight-links="true"] .sidebar nav ul li a {
 }
 
 html[data-highlight-links="true"] a:not(.sidebar nav ul li a) {
-  color: var(--red-mid, #DC2626) !important;
+  color: var(--red-mid, #FF8A84) !important;
 }
 
 /* Big Cursor */
