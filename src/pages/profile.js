@@ -1,7 +1,7 @@
 export function renderProfile() {
   return `
     <div class="breadcrumb">
-      National Treasury / <strong>Profile</strong>
+      Rainbow eagles/ <strong>Profile</strong>
     </div>
 
     <section class="page-header">
@@ -14,9 +14,9 @@ export function renderProfile() {
         <div class="profile-avatar">
           <i class="fa-solid fa-user"></i>
         </div>
-        <h2>IVY WANJIKU NJUGUNA</h2>
+        <h2>Rainbow Eagle</h2>
         <p class="profile-dept">ICT Department</p>
-        <p class="profile-email">ivy@gmail.com</p>
+        <p class="profile-email">rainboweagle@gmail.com</p>
 
         <div class="profile-details">
           <div class="detail-row">
@@ -29,7 +29,7 @@ export function renderProfile() {
           </div>
           <div class="detail-row">
             <span class="detail-label">Phone</span>
-            <span class="detail-value">+254 712 345 678</span>
+            <span class="detail-value">+254123456789</span>
           </div>
         </div>
 

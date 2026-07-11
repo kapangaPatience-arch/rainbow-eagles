@@ -1,7 +1,7 @@
 export function renderRequestAssistance() {
   return `
     <div class="breadcrumb">
-      National Treasury / <strong>Request Assistance</strong>
+      Rainbow eagles/ <strong>Request Assistance</strong>
     </div>
 
     <section class="page-header">

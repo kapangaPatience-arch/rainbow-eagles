@@ -1,7 +1,7 @@
 export function renderTicketHistory() {
   return `
     <div class="breadcrumb">
-      National Treasury / <strong>Ticket History</strong>
+      Rainbow eagles/ <strong>Ticket History</strong>
     </div>
 
     <section class="page-header">
