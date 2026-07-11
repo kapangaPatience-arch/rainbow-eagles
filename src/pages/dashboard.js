@@ -12,7 +12,7 @@ export function renderDashboard() {
     <section class="hero">
       <div>
         <p>${greeting}</p>
-        <h1>Dear sir.</h1>
+        <h1>Rainbow Eagle.</h1>
         <span>ICT Department &bull; rainboweagles@gmail.com</span>
       </div>
       <div class="hero-buttons">
